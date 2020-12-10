@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pault929/notetaker#readme",
   "dependencies": {
-    "i": "^0.3.6"
+    "i": "^0.3.6",
+    "require": "^2.4.20"
   }
 }
