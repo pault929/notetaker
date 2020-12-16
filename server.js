@@ -12,5 +12,5 @@ app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 // Start the server on the port
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
-10:24
+
 // server.js needs to point to the apiRoutes and htmlRoutes js files
