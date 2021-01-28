@@ -2,7 +2,7 @@
   "name": "notetaker",
   "version": "1.0.0",
   "description": "Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/pault929/notetaker#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "i": "^0.3.6",
+    "mysql": "^2.18.1",
     "require": "^2.4.20"
   }
 }
